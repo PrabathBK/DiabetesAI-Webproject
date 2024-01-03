@@ -20,10 +20,6 @@ The dataset used for training and testing the model was sourced from Kaggle. It 
 - Diabetes Pedigree Function (DPF)
 - Age
 
-### Algorithms Tested
-- Random Forest Classifier
-- Logistic Regression
-
 ### Model Selection
 After evaluating various classification algorithms, the Random Forest Classifier and Logistic Regression models were selected based on their performance metrics, including accuracy, precision, and recall.
 
@@ -37,16 +33,14 @@ The Random Forest Classifier was ultimately chosen as the best-performing model 
 ## How to Run the Web Application
 
 1. Install Streamlit by running the following command:
-   !pip install streamlit
+  - !pip install streamlit
 
 2. Clone the repository and navigate to the project directory.
 
 3. Run the Streamlit app using the following command:
-    streamlit run [filename].py
-   
-Replace `[filename].py` with the name of your Streamlit application file.
+  -  streamlit run diabetesai_webproject.py
 
-5. Once the application is running, open the provided URL in a web browser to access the Diabetes Detection App.
+4. Once the application is running, open the provided URL in a web browser to access the Diabetes Detection App.
 
 ## How to Use the Web Portal
 
@@ -54,11 +48,15 @@ Replace `[filename].py` with the name of your Streamlit application file.
 
 2. The main section of the web page contains sliders for various input features. Adjust the sliders to enter the desired values for each feature.
 
-3. After entering the input values, the web application will display the entered data and the predicted outcome (0 for non-diabetes, 1 for diabetes) based on the selected machine learning model.
-
+3. After entering the input values, the web application will display the entered data and the predicted outcome (0 for non-diabetes, 1 for diabetes)
+   
 4. Use the provided information to understand the prediction and consult a healthcare professional for further guidance and diagnosis.
 
 ## Conclusion
 
 The Diabetes Detection Web Application leverages machine learning algorithms to provide predictions on the likelihood of diabetes based on user input. By offering a user-friendly interface and accurate predictions, this application aims to raise awareness about diabetes and promote early detection for better healthcare outcomes.
+
+## Contact Information
+
+For any questions or suggestions, please feel free to reach out to [prabathwijethilaka50@gmail.com](mailto:prabathwijethilaka50@gmail.com).
 
