@@ -33,12 +33,12 @@ The Random Forest Classifier was ultimately chosen as the best-performing model 
 ## How to Run the Web Application
 
 1. Install Streamlit by running the following command:
-  - !pip install streamlit
+  - pip install streamlit
 
 2. Clone the repository and navigate to the project directory.
 
 3. Run the Streamlit app using the following command:
-  -  streamlit run diabetesai_webproject.py
+  - streamlit run diabetesai_webproject.py
 
 4. Once the application is running, open the provided URL in a web browser to access the Diabetes Detection App.
 
